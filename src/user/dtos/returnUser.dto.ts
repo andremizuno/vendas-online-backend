@@ -1,6 +1,6 @@
 import { ReturnAddressDto } from 'src/address/dtos/returnAddress.dto';
 
-export class ReturUserDto {
+export class ReturnUserDto {
   id: number;
   name: string;
   email: string;
