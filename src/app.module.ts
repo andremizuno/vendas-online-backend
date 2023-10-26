@@ -16,7 +16,7 @@ import { JwtModule } from '@nestjs/jwt';
     ConfigModule.forRoot({
       envFilePath: ['.env.development.local'],
     }),
-    TypeOrmModule.forRootAsync({
+    TypeOrmModule.forRoot({
       type: 'postgres',
       database: process.env.DB_DATABASE,
       host: process.env.DB_HOST,
