@@ -1,6 +1,6 @@
 import { UserEntity } from 'src/user/entities/user.entity';
 
-export class LoginPayLoad {
+export class LoginPayload {
   id: number;
   typeUser: number;
   constructor(user: UserEntity) {
